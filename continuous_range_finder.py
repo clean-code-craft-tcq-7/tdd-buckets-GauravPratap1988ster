@@ -32,4 +32,4 @@ def get_continuous_range(samples):
     continuous_range = []
     if (len (samples) > 1):
         continuous_range = calculate_continuous_range(samples, continuous_range)
-    return
+    return continuous_range
